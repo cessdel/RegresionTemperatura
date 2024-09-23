@@ -1,0 +1,47 @@
+2024-09-11 22:23:51,460 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2024-09-11 22:25:24,435 - INFO - Servidor iniciado
+2024-09-11 22:25:30,360 - INFO - Server startup event triggered.
+2024-09-11 22:25:30,361 - ERROR - No model files found.
+2024-09-11 22:26:54,360 - INFO - Model loaded successfully.
+2024-09-11 22:26:54,368 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_11-09-24_22-26-54.pkl.
+2024-09-11 22:41:31,713 - INFO - Future temperatures solicited.
+2024-09-11 22:58:14,364 - INFO - Model loaded successfully.
+2024-09-11 22:58:14,365 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_11-09-24_22-58-14.pkl.
+2024-09-11 22:58:29,396 - INFO - Future temperatures solicited.
+2024-09-12 10:17:04,517 - INFO - Server shutdown event triggered.
+2024-09-12 10:19:44,899 - INFO - Servidor iniciado
+2024-09-12 10:19:50,204 - INFO - Server startup event triggered.
+2024-09-12 10:19:50,220 - INFO - Model loaded successfully.
+2024-09-12 10:19:50,220 - INFO - Model loaded successfully from modelRegression_11-09-24_22-58-14.pkl.
+2024-09-12 10:21:50,674 - INFO - Server shutdown event triggered.
+2024-09-12 10:22:01,441 - INFO - Server startup event triggered.
+2024-09-12 10:22:01,447 - INFO - Model loaded successfully.
+2024-09-12 10:22:01,453 - INFO - Model loaded successfully from modelRegression_11-09-24_22-58-14.pkl.
+2024-09-12 10:22:08,841 - INFO - Server shutdown event triggered.
+2024-09-12 10:22:14,405 - INFO - Server startup event triggered.
+2024-09-12 10:22:14,408 - INFO - Model loaded successfully.
+2024-09-12 10:22:14,416 - INFO - Model loaded successfully from modelRegression_11-09-24_22-58-14.pkl.
+2024-09-12 10:36:51,711 - INFO - Future temperatures solicited.
+2024-09-12 10:39:27,312 - INFO - Model loaded successfully.
+2024-09-12 10:39:27,312 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_12-09-24_10-39-27.pkl.
+2024-09-12 10:39:35,966 - INFO - Future temperatures solicited.
+2024-09-12 10:40:57,145 - INFO - Model loaded successfully.
+2024-09-12 10:40:57,145 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_12-09-24_10-40-57.pkl.
+2024-09-12 10:41:15,190 - INFO - Future temperatures solicited.
+2024-09-12 10:41:54,651 - INFO - Server shutdown event triggered.
+2024-09-12 10:44:44,207 - INFO - Servidor iniciado
+2024-09-12 10:44:49,052 - INFO - Server startup event triggered.
+2024-09-12 10:44:49,065 - INFO - Model loaded successfully.
+2024-09-12 10:44:49,099 - INFO - Model loaded successfully from modelRegression_12-09-24_10-40-57.pkl.
+2024-09-12 10:45:29,184 - INFO - Model loaded successfully.
+2024-09-12 10:45:29,184 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_12-09-24_10-45-29.pkl.
+2024-09-12 10:45:37,496 - INFO - Future temperatures solicited.
+2024-09-12 10:45:39,697 - INFO - Future temperatures solicited.
+2024-09-12 10:45:40,552 - INFO - Future temperatures solicited.
+2024-09-12 11:14:36,457 - INFO - Model loaded successfully.
+2024-09-12 11:14:36,457 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_12-09-24_11-14-36.pkl.
+2024-09-12 11:14:41,623 - INFO - Future temperatures solicited.
