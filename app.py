@@ -1,3 +1,4 @@
+import json
 import multiprocessing
 import os
 from fastapi import FastAPI, HTTPException, UploadFile, File
@@ -55,6 +56,26 @@ app = FastAPI(lifespan=lifespan)
 @app.get("/ping")
 async def ping():
     return {"message": "Servicio en línea. Modelo de regresión de temperatura."}
+
+@app.get("/predict/short_term")
+async def predict_short_term_temperatures(minutes: int = 1):
+    """
+    Endpoint para predecir las próximas X minutos de temperatura.
+    Por defecto, predice para 1 minuto (corto plazo).
+    """
+    global model_handler
+    try:
+        # Verifica que el modelo esté cargado
+        if model_handler is None:
+            raise HTTPException(status_code=500, detail="Model is not loaded.")
+        
+        # Predicción de corto plazo basado en el número de minutos proporcionado
+        results = model_handler.predict_short_term_temperatures(minutes=minutes)
+        return {"future_temperatures": results}
+    
+    except Exception as e:
+        logging.error(f"Error predicting short-term temperatures: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error predicting short-term temperatures: {str(e)}")
 
 
 
@@ -127,6 +148,44 @@ async def upload_model(file: UploadFile = File(...)):
     except Exception as e:
         logging.error(f"Error uploading model: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error uploading model: {str(e)}")
+    
+    
+@app.post("/score/")
+async def score(metrics: dict):
+    """
+    Endpoint para recibir y almacenar las métricas del modelo.
+    """
+    try:
+        metrics_file = "model_metrics.json"
+        with open(metrics_file, "a") as f:
+            json.dump(metrics, f)
+            f.write("\n")  # Escribe en una nueva línea para cada métrica
+
+        logging.info(f"Received and saved metrics: {metrics}")
+        return {"status": "Metrics received and saved successfully."}
+    
+    except Exception as e:
+        logging.error(f"Error saving metrics: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error saving metrics: {str(e)}")
+@app.get("/metrics/")
+async def get_metrics():
+    """
+    Endpoint para obtener las métricas del modelo.
+    """
+    metrics_file = "model_metrics.json"
+    try:
+        metrics = []
+        # Leer el archivo de métricas
+        with open(metrics_file, "r") as f:
+            for line in f:
+                metrics.append(json.loads(line.strip()))
+
+        logging.info(f"Metrics retrieved successfully: {metrics}")
+        return {"metrics": metrics}
+
+    except Exception as e:
+        logging.error(f"Error retrieving metrics: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error retrieving metrics: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn

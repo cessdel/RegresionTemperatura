@@ -45,3 +45,127 @@ pip install python-multipart
 2024-09-12 11:14:36,457 - INFO - Model loaded successfully.
 2024-09-12 11:14:36,457 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_12-09-24_11-14-36.pkl.
 2024-09-12 11:14:41,623 - INFO - Future temperatures solicited.
+2024-09-29 20:49:02,017 - INFO - Servidor iniciado
+2024-09-29 20:49:06,601 - INFO - Server startup event triggered.
+2024-09-29 20:49:06,601 - ERROR - No model files found.
+2024-09-29 20:50:23,316 - INFO - Model loaded successfully.
+2024-09-29 20:50:23,327 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:53:26,874 - ERROR - Error predicting short-term temperatures: 'ReggressionModel' object has no attribute 'get_recent_data'
+2024-09-29 20:54:02,709 - INFO - Server shutdown event triggered.
+2024-09-29 20:54:08,706 - INFO - Server startup event triggered.
+2024-09-29 20:54:08,741 - INFO - Model loaded successfully.
+2024-09-29 20:54:08,745 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:54:08,756 - ERROR - Error predicting short-term temperatures: 'ReggressionModel' object has no attribute 'data_storage'
+2024-09-29 20:54:20,542 - ERROR - Error predicting short-term temperatures: 'ReggressionModel' object has no attribute 'data_storage'
+2024-09-29 20:54:26,541 - ERROR - Error predicting short-term temperatures: 'ReggressionModel' object has no attribute 'data_storage'
+2024-09-29 20:54:31,773 - INFO - Server shutdown event triggered.
+2024-09-29 20:54:39,424 - INFO - Servidor iniciado
+2024-09-29 20:54:44,538 - INFO - Server startup event triggered.
+2024-09-29 20:54:44,546 - INFO - Model loaded successfully.
+2024-09-29 20:54:44,554 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:54:51,651 - ERROR - Error predicting short-term temperatures: 'ReggressionModel' object has no attribute 'data_storage'
+2024-09-29 20:55:43,360 - INFO - Server shutdown event triggered.
+2024-09-29 20:55:48,641 - INFO - Server startup event triggered.
+2024-09-29 20:55:48,644 - INFO - Model loaded successfully.
+2024-09-29 20:55:48,651 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:57:37,951 - INFO - Server shutdown event triggered.
+2024-09-29 20:57:51,882 - INFO - Server startup event triggered.
+2024-09-29 20:57:51,888 - INFO - Model loaded successfully.
+2024-09-29 20:57:51,894 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:57:59,016 - INFO - Server shutdown event triggered.
+2024-09-29 20:58:04,116 - INFO - Server startup event triggered.
+2024-09-29 20:58:04,122 - INFO - Model loaded successfully.
+2024-09-29 20:58:04,125 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 20:58:15,356 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: 'ReggressionModel' object has no attribute 'influx_client'
+2024-09-29 20:59:17,330 - INFO - Server shutdown event triggered.
+2024-09-29 20:59:38,772 - INFO - Server startup event triggered.
+2024-09-29 20:59:38,774 - INFO - Model loaded successfully.
+2024-09-29 20:59:38,782 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:00:03,386 - INFO - Server shutdown event triggered.
+2024-09-29 21:00:08,657 - INFO - Server startup event triggered.
+2024-09-29 21:00:08,659 - INFO - Model loaded successfully.
+2024-09-29 21:00:08,667 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:00:18,718 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: (<urllib3.connection.HTTPConnection object at 0x000001FB1D32EF60>, 'Connection to 192.168.100.79 timed out. (connect timeout=10.0)')
+2024-09-29 21:00:53,754 - INFO - Server shutdown event triggered.
+2024-09-29 21:00:59,170 - INFO - Server startup event triggered.
+2024-09-29 21:00:59,175 - INFO - Model loaded successfully.
+2024-09-29 21:00:59,182 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:01:09,234 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'invalid', 'Date': 'Mon, 30 Sep 2024 03:01:07 GMT', 'Content-Length': '102'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"your_org\\" not found"}'
+
+2024-09-29 21:01:40,367 - INFO - Server shutdown event triggered.
+2024-09-29 21:01:45,521 - INFO - Server startup event triggered.
+2024-09-29 21:01:45,530 - INFO - Model loaded successfully.
+2024-09-29 21:01:45,537 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:01:49,862 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'invalid', 'Date': 'Mon, 30 Sep 2024 03:01:48 GMT', 'Content-Length': '102'})
+HTTP response body: b'{"code":"invalid","message":"failed to decode request body: organization name \\"your_org\\" not found"}'
+
+2024-09-29 21:02:14,423 - INFO - Server shutdown event triggered.
+2024-09-29 21:02:20,082 - INFO - Server startup event triggered.
+2024-09-29 21:02:20,086 - INFO - Model loaded successfully.
+2024-09-29 21:02:20,094 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:02:20,684 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: "None of [Index(['_time', '_value'], dtype='object')] are in the [columns]"
+2024-09-29 21:03:53,713 - INFO - Server shutdown event triggered.
+2024-09-29 21:04:04,508 - INFO - Server startup event triggered.
+2024-09-29 21:04:04,516 - INFO - Model loaded successfully.
+2024-09-29 21:04:04,530 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:04:27,665 - INFO - Short-term future temperatures requested.
+2024-09-29 21:05:22,886 - INFO - Short-term future temperatures requested.
+2024-09-29 21:05:25,775 - INFO - Server shutdown event triggered.
+2024-09-29 21:05:52,348 - INFO - Server startup event triggered.
+2024-09-29 21:05:52,348 - INFO - Model loaded successfully.
+2024-09-29 21:05:52,356 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:06:10,049 - ERROR - Error predicting short-term temperatures: Error retrieving data from InfluxDB: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'X-Influxdb-Build': 'OSS', 'X-Influxdb-Version': 'v2.7.8', 'X-Platform-Error-Code': 'invalid', 'Date': 'Mon, 30 Sep 2024 03:06:08 GMT', 'Transfer-Encoding': 'chunked'})
+HTTP response body: b'{"code":"invalid","message":"runtime error @6:12-6:81: pivot: specified column does not exist in table: _field"}'
+
+2024-09-29 21:07:42,935 - INFO - Server shutdown event triggered.
+2024-09-29 21:07:52,641 - INFO - Server startup event triggered.
+2024-09-29 21:07:52,645 - INFO - Model loaded successfully.
+2024-09-29 21:07:52,654 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:08:15,279 - INFO - Short-term future temperatures requested.
+2024-09-29 21:08:43,342 - INFO - Future temperatures solicited.
+2024-09-29 21:09:21,283 - INFO - Short-term future temperatures requested.
+2024-09-29 21:11:22,373 - INFO - Server shutdown event triggered.
+2024-09-29 21:11:27,943 - INFO - Server startup event triggered.
+2024-09-29 21:11:27,946 - INFO - Model loaded successfully.
+2024-09-29 21:11:27,951 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:11:42,594 - INFO - Short-term future temperatures requested.
+2024-09-29 21:11:55,331 - INFO - Short-term future temperatures requested.
+2024-09-29 21:11:57,700 - INFO - Short-term future temperatures requested.
+2024-09-29 21:11:58,517 - INFO - Short-term future temperatures requested.
+2024-09-29 21:11:59,298 - INFO - Short-term future temperatures requested.
+2024-09-29 21:12:00,529 - INFO - Short-term future temperatures requested.
+2024-09-29 21:14:08,157 - INFO - Future temperatures solicited.
+2024-09-29 21:16:49,736 - INFO - Server shutdown event triggered.
+2024-09-29 21:17:00,472 - INFO - Server startup event triggered.
+2024-09-29 21:17:00,472 - INFO - Model loaded successfully.
+2024-09-29 21:17:00,481 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:17:08,145 - INFO - Server shutdown event triggered.
+2024-09-29 21:17:13,797 - INFO - Server startup event triggered.
+2024-09-29 21:17:13,807 - INFO - Model loaded successfully.
+2024-09-29 21:17:13,814 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:17:17,080 - INFO - Server shutdown event triggered.
+2024-09-29 21:17:22,408 - INFO - Server startup event triggered.
+2024-09-29 21:17:22,410 - INFO - Model loaded successfully.
+2024-09-29 21:17:22,421 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:17:37,211 - INFO - Server shutdown event triggered.
+2024-09-29 21:17:42,690 - INFO - Server startup event triggered.
+2024-09-29 21:17:42,690 - INFO - Model loaded successfully.
+2024-09-29 21:17:42,696 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:17:49,997 - INFO - Server shutdown event triggered.
+2024-09-29 21:17:55,583 - INFO - Server startup event triggered.
+2024-09-29 21:17:55,592 - INFO - Model loaded successfully.
+2024-09-29 21:17:55,598 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:22:42,033 - INFO - Server shutdown event triggered.
+2024-09-29 21:33:21,477 - INFO - Servidor iniciado
+2024-09-29 21:33:28,400 - INFO - Server startup event triggered.
+2024-09-29 21:33:28,413 - INFO - Model loaded successfully.
+2024-09-29 21:33:28,417 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-29 21:33:32,536 - ERROR - Error retrieving metrics: [Errno 2] No such file or directory: 'model_metrics.json'
+2024-09-29 21:42:43,148 - INFO - Server shutdown event triggered.
