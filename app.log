@@ -169,3 +169,6 @@ HTTP response body: b'{"code":"invalid","message":"runtime error @6:12-6:81: piv
 2024-09-29 21:33:28,417 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
 2024-09-29 21:33:32,536 - ERROR - Error retrieving metrics: [Errno 2] No such file or directory: 'model_metrics.json'
 2024-09-29 21:42:43,148 - INFO - Server shutdown event triggered.
+2024-09-29 21:42:48,609 - INFO - Server startup event triggered.
+2024-09-29 21:42:48,614 - INFO - Model loaded successfully.
+2024-09-29 21:42:48,621 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
