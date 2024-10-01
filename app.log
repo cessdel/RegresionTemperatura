@@ -172,3 +172,23 @@ HTTP response body: b'{"code":"invalid","message":"runtime error @6:12-6:81: piv
 2024-09-29 21:42:48,609 - INFO - Server startup event triggered.
 2024-09-29 21:42:48,614 - INFO - Model loaded successfully.
 2024-09-29 21:42:48,621 - INFO - Model loaded successfully from modelRegression_29-09-24_20-50-23.pkl.
+2024-09-30 11:53:02,637 - INFO - Server shutdown event triggered.
+2024-09-30 11:53:09,440 - INFO - Server startup event triggered.
+2024-09-30 11:53:09,441 - ERROR - No model files found.
+2024-09-30 11:53:35,030 - INFO - Servidor iniciado
+2024-09-30 11:53:37,275 - INFO - Server startup event triggered.
+2024-09-30 11:53:37,276 - ERROR - No model files found.
+2024-09-30 11:54:31,263 - ERROR - Error predicting future temperatures: 500: Model is not loaded.
+2024-09-30 13:35:29,633 - ERROR - Error predicting future temperatures: 500: Model is not loaded.
+2024-09-30 13:38:13,562 - INFO - Model loaded successfully.
+2024-09-30 13:38:13,602 - INFO - New model uploaded and loaded successfully. Stored as modelRegression_30-09-24_13-38-13.pkl.
+2024-09-30 13:38:13,619 - INFO - Received and saved metrics: {'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}
+2024-09-30 13:38:50,441 - INFO - Future temperatures solicited.
+2024-09-30 13:39:21,867 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 13:51:15,613 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 13:52:41,362 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 14:32:17,926 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 14:33:54,452 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 14:34:40,829 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 14:36:16,698 - INFO - Metrics retrieved successfully: [{'mean_squared_error': 0.6724227183096924, 'r2_score': 0.18050448117776208, 'timestamp': '2024-09-30T13:38:13.210885'}]
+2024-09-30 18:13:30,459 - INFO - Server shutdown event triggered.
